@@ -37,9 +37,6 @@ Below is the head of the cleaned DataFrame:
 | 306168 |        40 |         6 |      194.8 |        22 |            5 |
 | 286009 |       120 |         7 |      878.3 |        20 |            5 |
 | 475785 |        90 |        17 |      267   |        29 |            5 |
-
-
-
 ---
 
 ### **Exploratory Data Analysis**
