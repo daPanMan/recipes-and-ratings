@@ -1,4 +1,4 @@
-# recipes-and-ratings
+# Recipes and Ratings Analysis
 
 Here’s how to reframe your report using the guidelines provided for embedding Plotly plots, creating Markdown tables, and organizing content effectively.
 
@@ -245,18 +245,10 @@ The dataset required careful attention to missing values to ensure the analyses 
 - **Improved Completeness**: Imputing missing ratings ensured that all recipes had a valid `avg_rating` value, enabling downstream predictive modeling.
 - **Bias Mitigation**: Using the mean value minimized the risk of introducing significant deviations from the overall dataset trends. However, this approach assumes that the missing ratings are not systematically biased (e.g., recipes with no ratings are not inherently better or worse than rated recipes).
 
-
 ### **Prediction Problem**
 
 #### **Objective**
-#### **Objective**
 The goal of this project is to predict the **average rating** of a recipe, which reflects user satisfaction, based on its key attributes. These attributes include cooking time, the number of steps involved in preparation, and various nutritional components such as calorie and protein content. By analyzing these factors, we aim to identify patterns and features that contribute to a highly-rated recipe. Understanding what drives user satisfaction can provide valuable insights for recipe developers, meal planning services, and culinary enthusiasts, enabling them to craft recipes that align with user preferences. Furthermore, this analysis sheds light on the relationship between recipe complexity, nutritional values, and overall user feedback, offering actionable guidance for optimizing the recipe creation process.
-
-
-#### **Approach**
-- **Problem Type**: Regression
-- **Evaluation Metric**: Mean Squared Error (MSE)
-- **Features**: `minutes`, `n_steps`, `calories`, `protein`
 
 #### **Approach**
 To predict the **average rating (`avg_rating`)** of recipes, we adopted a **regression-based approach**, as the target variable is continuous and ranges between 0 and 5. The analysis focused on identifying the relationships between recipe features and user ratings, ensuring that the model could generalize well to unseen data.
