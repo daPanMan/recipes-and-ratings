@@ -31,13 +31,13 @@ We focused on preparing the data for analysis and prediction by:
 Below is the head of the cleaned DataFrame:
 
 ```markdown
-| id      | minutes | n_steps | calories | protein | avg_rating |
-|---------|---------|---------|----------|---------|------------|
-| 333281  | 40      | 10      | 138.4    | 6.0     | 4.5        |
-| 453467  | 45      | 12      | 595.1    | 26.0    | 4.0        |
-| 306168  | 40      | 6       | 194.8    | 3.0     | 4.3        |
-| 286009  | 120     | 7       | 878.3    | 39.0    | 4.8        |
-| 475785  | 90      | 17      | 267.0    | 2.0     | 3.9        |
+|     id |   minutes |   n_steps |   calories |   protein |   avg_rating |
+|-------:|----------:|----------:|-----------:|----------:|-------------:|
+| 333281 |        40 |        10 |      138.4 |         3 |            4 |
+| 453467 |        45 |        12 |      595.1 |        13 |            5 |
+| 306168 |        40 |         6 |      194.8 |        22 |            5 |
+| 286009 |       120 |         7 |      878.3 |        20 |            5 |
+| 475785 |        90 |        17 |      267   |        29 |            5 |
 ```
 
 ---
@@ -48,7 +48,7 @@ Below is the head of the cleaned DataFrame:
 - **Cooking Time Distribution**  
   Most recipes fall within the 30–60 minute range.  
   <iframe  
-    src="./assets/univariate.html"  
+    src="assets/univariate.html"  
     width="800"  
     height="600"  
     frameborder="0"  
