@@ -62,7 +62,7 @@ Below is the head of the cleaned DataFrame:
 - **Cooking Time vs. Average Rating**  
   The scatter plot below shows that extremely short or long cooking times correlate with slightly lower ratings, while recipes with moderate cooking times (30–60 minutes) tend to have higher ratings.  
   <iframe  
-    src="assets/cooking_time-vs-rating.html"  
+    src="assets/cooking-time-vs-rating.html"  
     width="800"  
     height="600"  
     frameborder="0"  
