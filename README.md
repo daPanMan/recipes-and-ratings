@@ -1,7 +1,6 @@
 # Recipes and Ratings Analysis
 
-Here’s how to reframe your report using the guidelines provided for embedding Plotly plots, creating Markdown tables, and organizing content effectively.
-
+Author: John Pan
 
 ## **Report for Recipes and Ratings**
 
