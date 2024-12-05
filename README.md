@@ -43,7 +43,7 @@ Below is the head of the cleaned DataFrame:
 - **Cooking Time Distribution**  
   Most recipes fall within the 30–60 minute range.  
   <iframe  
-    src="assets/univariate.html"  
+    src="assets/cooking-time.html"  
     width="800"  
     height="600"  
     frameborder="0"  
@@ -52,7 +52,7 @@ Below is the head of the cleaned DataFrame:
 - **Average Rating Distribution**  
   Ratings are skewed toward higher values, with many recipes rated above 4.5.  
   <iframe  
-    src="assets/rating_distribution.html"  
+    src="assets/rating-distribution.html"  
     width="800"  
     height="600"  
     frameborder="0"  
@@ -62,7 +62,7 @@ Below is the head of the cleaned DataFrame:
 - **Cooking Time vs. Average Rating**  
   The scatter plot below shows that extremely short or long cooking times correlate with slightly lower ratings, while recipes with moderate cooking times (30–60 minutes) tend to have higher ratings.  
   <iframe  
-    src="assets/cooking_time_vs_rating.html"  
+    src="assets/cooking_time-vs-rating.html"  
     width="800"  
     height="600"  
     frameborder="0"  
@@ -73,15 +73,13 @@ Below is the head of the cleaned DataFrame:
 
 We grouped recipes by cooking time bins to examine average ratings within each range.
 
-```markdown
-| Cooking Time Bin | Avg Rating |
-|------------------|------------|
-| 0–15 min         | 4.1        |
-| 15–30 min        | 4.3        |
-| 30–60 min        | 4.5        |
-| 1–2 hours        | 4.2        |
-| 2+ hours         | 4.0        |
-```
+| cooking_time_bin   |   avg_rating |
+|:-------------------|-------------:|
+| 0-15 min           |      4.67088 |
+| 15-30 min          |      4.62338 |
+| 30-60 min          |      4.60655 |
+| 1-2 hours          |      4.62744 |
+| 2+ hours           |      4.58891 |
 
 Recipes with cooking times between **30 and 60 minutes** received the highest average ratings, highlighting user preference for moderately timed recipes.
 
