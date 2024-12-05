@@ -115,7 +115,7 @@ Exploratory Data Analysis (EDA) provides insights into the underlying patterns a
 1. **Cooking Time Distribution**  
    - **Insights**: The histogram of cooking times reveals that the majority of recipes fall within the **30–60 minute range**, indicating a preference for moderately time-intensive recipes. This range reflects the balance between quick convenience and the richness achieved with slightly longer cooking durations.  
    - **Outliers**: We identified recipes with unrealistically high cooking times, such as **"How to Preserve a Husband"** with a listed cooking time of **1,051,200 minutes**, which were removed during data cleaning.  
-   - **Visualization**: The plot below highlights the distribution of cooking times, with the x-axis limited to **500 minutes** for clarity.  
+   - **Visualization**: The plot below highlights the distribution of cooking times, with the x-axis limited to **200 minutes** for clarity.  
 
    <iframe  
      src="assets/cooking-time.html"  
