@@ -2,7 +2,6 @@
 
 Here’s how to reframe your report using the guidelines provided for embedding Plotly plots, creating Markdown tables, and organizing content effectively.
 
----
 
 ## **Report for Recipes and Ratings**
 
@@ -13,8 +12,6 @@ The **Recipes and Ratings** dataset combines user-generated recipe data with rat
 **What is the relationship between cooking time and the average rating of recipes?**
 
 This question is highly relevant for recipe developers and home cooks, as it uncovers actionable insights for optimizing recipes to align with user preferences. By analyzing attributes such as cooking time, complexity, and nutrition, this project seeks to predict user satisfaction and reveal patterns in highly rated recipes.
-
----
 
 ### **Data Cleaning**
 
@@ -30,7 +27,6 @@ We focused on preparing the data for analysis and prediction by:
 #### **Cleaned Data Sample**
 Below is the head of the cleaned DataFrame:
 
-```markdown
 |     id |   minutes |   n_steps |   calories |   protein |   avg_rating |
 |-------:|----------:|----------:|-----------:|----------:|-------------:|
 | 333281 |        40 |        10 |      138.4 |         3 |            4 |
@@ -39,9 +35,7 @@ Below is the head of the cleaned DataFrame:
 | 286009 |       120 |         7 |      878.3 |        20 |            5 |
 | 475785 |        90 |        17 |      267   |        29 |            5 |
 
-```
 
----
 
 ### **Exploratory Data Analysis**
 
@@ -74,7 +68,6 @@ Below is the head of the cleaned DataFrame:
     frameborder="0"  
   ></iframe>
 
----
 
 ### **Interesting Aggregates**
 
@@ -92,7 +85,6 @@ We grouped recipes by cooking time bins to examine average ratings within each r
 
 Recipes with cooking times between **30 and 60 minutes** received the highest average ratings, highlighting user preference for moderately timed recipes.
 
----
 
 ### **Prediction Problem**
 
@@ -104,7 +96,6 @@ Predict the **average rating** of a recipe based on its attributes, including co
 - **Evaluation Metric**: Mean Squared Error (MSE)
 - **Features**: `minutes`, `n_steps`, `calories`, `protein`
 
----
 
 ### **Baseline Model**
 
@@ -120,7 +111,6 @@ A Random Forest Regressor was trained using the following features:
 
 The baseline model provided a starting point for identifying the relationship between recipe attributes and user ratings.
 
----
 
 ### **Final Model**
 
@@ -140,7 +130,6 @@ The baseline model provided a starting point for identifying the relationship be
 
 The final model significantly improved accuracy, with **calories** emerging as the most important predictor.
 
----
 
 ### **Conclusions**
 
