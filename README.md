@@ -1,8 +1,8 @@
-# Recipes and Ratings Analysis
+# Cooking Time, Calories, and Ratings: The Secret Ingredients of Recipe Success
 
 Author: John Pan
 
-## **Report for Recipes and Ratings**
+## **Report for The Secret Ingredients of Recipe Success**
 
 ### **Introduction**
 The **Recipes and Ratings** dataset is a treasure trove of information about user preferences and recipe characteristics, offering a detailed look at what makes a recipe successful. With **over 25,000 unique recipes** and a staggering **1.2 million user ratings**, this dataset provides a unique opportunity to analyze the factors that contribute to user satisfaction. It includes detailed recipe attributes such as cooking time, number of preparation steps, and nutritional content, allowing for a comprehensive exploration of what users value most in their cooking experiences.
@@ -115,7 +115,7 @@ Exploratory Data Analysis (EDA) provides insights into the underlying patterns a
 1. **Cooking Time Distribution**  
    - **Insights**: The histogram of cooking times reveals that the majority of recipes fall within the **30–60 minute range**, indicating a preference for moderately time-intensive recipes. This range reflects the balance between quick convenience and the richness achieved with slightly longer cooking durations.  
    - **Outliers**: We identified recipes with unrealistically high cooking times, such as **"How to Preserve a Husband"** with a listed cooking time of **1,051,200 minutes**, which were removed during data cleaning.  
-   - **Visualization**: The plot below highlights the distribution of cooking times, with the x-axis limited to **200 minutes** for clarity.  
+   - **Visualization**: The plot below highlights the distribution of cooking times, with the x-axis limited to **500 minutes** for clarity.  
 
    <iframe  
      src="assets/cooking-time.html"  
